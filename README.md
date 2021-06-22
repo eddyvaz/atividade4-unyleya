@@ -1,4 +1,4 @@
-# atividade4-unyleya
+atividade4-unyleya
 
 Atividade contempla:
 
@@ -10,6 +10,7 @@ Exemplo de uso:
 -No diretório plan_tf:
 
 #terraform init
+
 #terraform apply
 
 Assim será provisionada instância.
