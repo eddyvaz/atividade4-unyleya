@@ -8,8 +8,8 @@ Atividade contempla:
 Exemplo de uso:
 
 -No diretório plan_tf:
-# terraform init
-# terraform apply
+#terraform init
+#terraform apply
 
 Assim será provisionada instância.
 
@@ -17,11 +17,11 @@ Assim será provisionada instância.
 
 -No diretório playbook_ansible:
 
-# ansible-playbook enable_winrm_https.yml -i inventario
+#ansible-playbook enable_winrm_https.yml -i inventario
 
 Habilita WinRM sobre https.
 
-# ansible-playbook install_iis.yml -i inventario
+#ansible-playbook install_iis.yml -i inventario
 
 Instala o servidor web IIS e cria um index.html personalizado.
 
