@@ -1,0 +1,11 @@
+---
+- hosts: srvwin19
+  tasks:
+    - name: Copiando script powershell p server remoto
+      win_copy:
+        src: './arqs/enable_winrm.ps1'
+        dest: 'C:\Windows\Temp\'
+        remote_src: no
+
+    - name: Habilitando winrm sobre https
+      win_command: powershell.exe -ExecutionPolicy ByPass -File C:/Windows/Temp/enable_winrm.ps1
