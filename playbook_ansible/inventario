@@ -3,7 +3,7 @@ ec2-3-136-154-165.us-east-2.compute.amazonaws.com
 
 [srvwin19:vars]
 ansible_user="Administrator"
-ansible_password="!JrT*CiLFczolzgMg$mBI&NwEDmAeoWI"
+ansible_password="pass_instancia"
 ansible_winrm_transport=ntlm
 ansible_winrm_scheme=https
 ansible_port=5986
