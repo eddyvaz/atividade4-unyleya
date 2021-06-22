@@ -8,6 +8,7 @@ Atividade contempla:
 Exemplo de uso:
 
 -No diretório plan_tf:
+
 #terraform init
 #terraform apply
 
